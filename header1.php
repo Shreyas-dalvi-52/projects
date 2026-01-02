@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>Life Saviour</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="img/favicon.png">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="css/icofont.css">
+		<link rel="stylesheet" href="css/icofont1.css">
+		<link rel="stylesheet" href="css/icofont3.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="css/datepicker.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
+    </head>
+    <body>
+	<!-- Header Area -->
+		<header class="header"ID="navbar" >
+			<!-- Topbar -->
+			<div class="topbar" >
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-10">
+							<B>JANKALYAN BLOOD CENTER A.NAGAR</B>
+							<!-- Contact -->
+							<!-- <ul class="top-link">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Doctors</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">FAQ</a></li>
+							</ul> -->
+							<!-- End Contact -->
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							<!-- Top Contact -->
+							<!-- <ul class="top-contact">
+								<li><i class="fa fa-phone"></i>+880 1234 56789</li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">support@yourmail.com</a></li>
+							</ul> -->
+							<!-- End Top Contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar -->
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-2 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.php"><img src="img/bloodbank.jpeg" alt="#" width="150px" height="31.17px"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-8 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<li><a href="user_dash.php">Home</a>
+												<!-- <ul class="dropdown">
+													<li><a href="index.html">Home Page 1</a></li>
+												</ul> -->
+											</li>
+											<li><a href="user_profile.php?id=<?php echo $id?>">Profile </a>
+												<!-- <ul class="dropdown">
+													<li><a href="newblood_reqistion.php">Blood requisition</a></li>
+													<li><a href="user_login.php">Camps request</a></li>
+													<li><a href="#">Hospital Login</a></li>
+												</ul> -->
+											</li>
+											<li><a href="donor_history.php?id=<?php echo $id?>">Donation History </a></li>
+											
+											<li><a href="#">Blood Requisition</a>
+											</li>
+                                            <li><a href="#">Camp <i class="icofont-rounded-down"></i></a>
+											    <ul class="dropdown">
+													<li><a href="camp_org_final.php">Organize camp</a></li>
+													<li><a href="newrunning_camps1.php">Running camps</a></li>
+												</ul> 
+											</li>
+											<!-- <li><a href="#">Manage donors<i class="icofont-rounded-down"></i></a>
+                                            <ul class="dropdown">
+													<li><a href="admin_login.php">All Donors</a></li>
+													<li><a href="user_login.php">Not verified Donors</a></li>
+													<li><a href="#">Hospital Login</a></li>
+												</ul>
+											</li> -->
+                                            <!-- <li><a href="#">Report</a> -->
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu-->
+							</div>
+							<div class="col-lg-2 col-12">
+								<div class="get-quote">
+									<a href="donor_requestation.php?id=<?php echo $id?>&mail=<?php echo $mail?>" class="btn">Donate Blood</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+</body>
+        </html>

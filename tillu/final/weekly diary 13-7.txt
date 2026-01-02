@@ -1,0 +1,39 @@
+this ,instance of(used to identify obj associated with particukar class...return boolean),typeOf
+
+
+13-7
+class is colection of object
+and object is runtime entity(behaviour,property)
+
+
+
+constructor
+- no need to call()invokes automatically after object creation
+- used to initialization(set default vlaue)
+- __construct
+
+
+destructor
+- __destruct
+- used to deallocate memory created by constructor
+
+
+
+access specifier
+-public : access everywhere
+-private: acess within class
+-protected:access in derived class
+
+
+inheritance
+
+single inheritance:
+- class a{
+	//parent,super,base class
+}
+class b extends a{
+	//extends a
+	// child ,sub,derived
+}
+
+calling operator(->)

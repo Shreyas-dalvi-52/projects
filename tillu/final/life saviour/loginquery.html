@@ -1,0 +1,5 @@
+$query=select *from login where uname='".$u."' and pass='".$u."';
+$res=mysqli_query($conn,$query);
+$cnt=mysqli_row_num($res);//it return 0 if res is null else any number
+if cnt==1
+echo"successful";

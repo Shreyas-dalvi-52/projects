@@ -1,0 +1,6 @@
+update login set logout_time=now() ,,status='offine'where id=$_session[$_id]
+			_id		date	logintime		logout     status
+online 		17								null		online
+	
+
+offline		17								9.20		offline

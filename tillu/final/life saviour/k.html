@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+	function fun()
+	{
+		var sel=""
+	//var a=document.getElementById("p1").value;
+	//document.write(a);
+		var a=document.f1.p1;
+		for(var x of a)
+		{
+			sel=x+""
+		}
+	document.getElementById("p11").innerHTML=sel;	
+	}
+</script> 
+<form name="f1">
+	<select name="p1" id="p1" multiple>
+		<option value="abirn">hfdebwod</option>
+		<option value="abin">hfdebwod</option>
+		<option value="abir">hfdebwod</option>
+		<option value="irn">hfdebwod</option>
+	</select>
+	<p id="p11">tyewuieewi</p>
+	<input type="button" value="submit" onclick="fun()">
+	</form>
+</body>
+</html>

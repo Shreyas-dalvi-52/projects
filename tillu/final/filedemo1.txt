@@ -1,0 +1,7 @@
+John DoeJane Doejane tillu
+If we now open the  file, we will see that Donald Duck and Goofy Goof is appended to the end of the file:
+
+Mickey Mouse
+Minnie Mouse
+Donald Duck
+Goofy Goof
